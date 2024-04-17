@@ -5,7 +5,7 @@ import re
 
 app = Flask(__name__)
 #tesseract path 
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+# pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 def check_range(value, min_val, max_val):
     return min_val <= value <= max_val
